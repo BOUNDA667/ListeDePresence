@@ -1,0 +1,96 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+body {
+    padding: 2em;
+    border: dotted 2px black;
+}
+
+header {
+    display: flex;
+    align-items: center;
+}
+
+header > p {
+    font-size: 2.5em;
+    font-weight: 800;
+    margin-left: 1em;
+}
+
+.head-image {
+    width: 15em;
+}
+
+main {
+    margin-top: 3em;
+    font-size: 1.5em;
+}
+
+table {
+    table-layout: fixed;
+    width: 100%;
+    border-collapse: collapse;
+    border: 3px solid black;
+}
+
+caption {
+    font-size: 1.3em;
+    margin: 1.5em 0 .3em 0;
+    font-weight: 700;
+}
+
+thead th {
+    text-align: start;
+    border: solid 2px black;
+    padding: .3em;
+    background: linear-gradient(to bottom, rgb(0 0 0 / 10%), rgb(0 0 0 / 50%));
+}
+
+
+.table-etudiants thead :nth-child(1) {
+    width: 7%;
+}
+
+
+.table-etudiants thead :nth-child(2) {
+    width: 7%;
+}
+
+.table-etudiants thead :nth-child(3) {
+    width: 31%;
+}
+
+.table-etudiants thead :nth-child(4) {
+    width: 10%;
+}
+
+.table-etudiants thead :nth-child(5) {
+    text-align: center;
+    width: 45%;
+}
+
+.table-etudiants tbody tr :nth-child(1),
+.table-etudiants tbody tr :nth-child(2),
+.table-etudiants tbody tr :nth-child(4) {
+    text-align: center;
+}
+
+tr, td {
+    border: solid 2px black;
+    padding: .3em;
+    height: 50px;
+}
+
+.observations {
+    height: 200px;
+}
+
+#signature {
+    margin: 1em 0 5em 0;
+    font-weight: 700;
+    font-size: 1.5em;
+}
